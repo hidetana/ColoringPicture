@@ -14,6 +14,10 @@
 		7AC0A8831D2793AF00A67461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC0A8811D2793AF00A67461 /* LaunchScreen.storyboard */; };
 		7AC0A88E1D2793AF00A67461 /* ColoringOnPictureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC0A88D1D2793AF00A67461 /* ColoringOnPictureTests.swift */; };
 		7AC0A8991D2793AF00A67461 /* ColoringOnPictureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC0A8981D2793AF00A67461 /* ColoringOnPictureUITests.swift */; };
+		7AC0A8AA1D279BF700A67461 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC0A8A91D279BF700A67461 /* StartViewController.swift */; };
+		7AC0A8AC1D29673600A67461 /* ColoringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC0A8AB1D29673600A67461 /* ColoringViewController.swift */; };
+		7AC0A8B31D296DC500A67461 /* FilterBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7AC0A8B21D296DC500A67461 /* FilterBase.mm */; };
+		D6240CB55415D4E6BDDB2803 /* libPods-ColoringOnPicture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BAB1F9154598B34D786A56 /* libPods-ColoringOnPicture.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65BAB1F9154598B34D786A56 /* libPods-ColoringOnPicture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColoringOnPicture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC0A8751D2793AF00A67461 /* ColoringOnPicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColoringOnPicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC0A8781D2793AF00A67461 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AC0A87A1D2793AF00A67461 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,15 @@
 		7AC0A8941D2793AF00A67461 /* ColoringOnPictureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoringOnPictureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC0A8981D2793AF00A67461 /* ColoringOnPictureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringOnPictureUITests.swift; sourceTree = "<group>"; };
 		7AC0A89A1D2793AF00A67461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AC0A8A61D279AA200A67461 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		7AC0A8A71D279AA200A67461 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7AC0A8A91D279BF700A67461 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartViewController.swift; path = controllers/StartViewController.swift; sourceTree = "<group>"; };
+		7AC0A8AB1D29673600A67461 /* ColoringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColoringViewController.swift; path = controllers/ColoringViewController.swift; sourceTree = "<group>"; };
+		7AC0A8AD1D296AD200A67461 /* ColoringOnPicture-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColoringOnPicture-Bridging-Header.h"; sourceTree = "<group>"; };
+		7AC0A8B21D296DC500A67461 /* FilterBase.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FilterBase.mm; path = library/FilterBase.mm; sourceTree = "<group>"; };
+		7AC0A8B41D296DFA00A67461 /* FilterBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterBase.h; path = library/FilterBase.h; sourceTree = "<group>"; };
+		BC3558DAB30B3810ABD4D727 /* Pods-ColoringOnPicture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColoringOnPicture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColoringOnPicture/Pods-ColoringOnPicture.debug.xcconfig"; sourceTree = "<group>"; };
+		D5E7935DF23F98F24488ACCB /* Pods-ColoringOnPicture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColoringOnPicture.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColoringOnPicture/Pods-ColoringOnPicture.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6240CB55415D4E6BDDB2803 /* libPods-ColoringOnPicture.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EE38C0CEAF8B5E5FF592CEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC3558DAB30B3810ABD4D727 /* Pods-ColoringOnPicture.debug.xcconfig */,
+				D5E7935DF23F98F24488ACCB /* Pods-ColoringOnPicture.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7AC0A86C1D2793AE00A67461 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,8 @@
 				7AC0A88C1D2793AF00A67461 /* ColoringOnPictureTests */,
 				7AC0A8971D2793AF00A67461 /* ColoringOnPictureUITests */,
 				7AC0A8761D2793AF00A67461 /* Products */,
+				4EE38C0CEAF8B5E5FF592CEA /* Pods */,
+				B1287055225A623B60D8F997 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +123,15 @@
 		7AC0A8771D2793AF00A67461 /* ColoringOnPicture */ = {
 			isa = PBXGroup;
 			children = (
+				7AC0A8B11D296D9100A67461 /* image */,
+				7AC0A8A81D279BB500A67461 /* controllers */,
 				7AC0A8781D2793AF00A67461 /* AppDelegate.swift */,
 				7AC0A87A1D2793AF00A67461 /* ViewController.swift */,
 				7AC0A87C1D2793AF00A67461 /* Main.storyboard */,
 				7AC0A87F1D2793AF00A67461 /* Assets.xcassets */,
 				7AC0A8811D2793AF00A67461 /* LaunchScreen.storyboard */,
 				7AC0A8841D2793AF00A67461 /* Info.plist */,
+				7AC0A8AD1D296AD200A67461 /* ColoringOnPicture-Bridging-Header.h */,
 			);
 			path = ColoringOnPicture;
 			sourceTree = "<group>";
@@ -125,6 +154,32 @@
 			path = ColoringOnPictureUITests;
 			sourceTree = "<group>";
 		};
+		7AC0A8A81D279BB500A67461 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7AC0A8A91D279BF700A67461 /* StartViewController.swift */,
+				7AC0A8AB1D29673600A67461 /* ColoringViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		7AC0A8B11D296D9100A67461 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				7AC0A8B21D296DC500A67461 /* FilterBase.mm */,
+				7AC0A8B41D296DFA00A67461 /* FilterBase.h */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		B1287055225A623B60D8F997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65BAB1F9154598B34D786A56 /* libPods-ColoringOnPicture.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AC0A89D1D2793AF00A67461 /* Build configuration list for PBXNativeTarget "ColoringOnPicture" */;
 			buildPhases = (
+				3274A898637429BC905D787A /* [CP] Check Pods Manifest.lock */,
 				7AC0A8711D2793AF00A67461 /* Sources */,
 				7AC0A8721D2793AF00A67461 /* Frameworks */,
 				7AC0A8731D2793AF00A67461 /* Resources */,
+				3016C896737EF494853A2258 /* [CP] Embed Pods Frameworks */,
+				D7E91256C743A764EEA46EE2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +309,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3016C896737EF494853A2258 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColoringOnPicture/Pods-ColoringOnPicture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3274A898637429BC905D787A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7E91256C743A764EEA46EE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColoringOnPicture/Pods-ColoringOnPicture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7AC0A8711D2793AF00A67461 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +364,9 @@
 			files = (
 				7AC0A87B1D2793AF00A67461 /* ViewController.swift in Sources */,
 				7AC0A8791D2793AF00A67461 /* AppDelegate.swift in Sources */,
+				7AC0A8B31D296DC500A67461 /* FilterBase.mm in Sources */,
+				7AC0A8AA1D279BF700A67461 /* StartViewController.swift in Sources */,
+				7AC0A8AC1D29673600A67461 /* ColoringViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +406,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7AC0A87D1D2793AF00A67461 /* Base */,
+				7AC0A8A61D279AA200A67461 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -305,6 +415,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7AC0A8821D2793AF00A67461 /* Base */,
+				7AC0A8A71D279AA200A67461 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -399,23 +510,30 @@
 		};
 		7AC0A89E1D2793AF00A67461 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3558DAB30B3810ABD4D727 /* Pods-ColoringOnPicture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ColoringOnPicture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.realcast.ColoringOnPicture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ColoringOnPicture/ColoringOnPicture-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		7AC0A89F1D2793AF00A67461 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5E7935DF23F98F24488ACCB /* Pods-ColoringOnPicture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ColoringOnPicture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.realcast.ColoringOnPicture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ColoringOnPicture/ColoringOnPicture-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +602,7 @@
 				7AC0A89F1D2793AF00A67461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AC0A8A01D2793AF00A67461 /* Build configuration list for PBXNativeTarget "ColoringOnPictureTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +611,7 @@
 				7AC0A8A21D2793AF00A67461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AC0A8A31D2793AF00A67461 /* Build configuration list for PBXNativeTarget "ColoringOnPictureUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +620,7 @@
 				7AC0A8A51D2793AF00A67461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

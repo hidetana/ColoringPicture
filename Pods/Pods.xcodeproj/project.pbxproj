@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ED9985538706240869E423CE3483F02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E9C38FD7777F945CE33DE27F8A65606C /* Pods-ColoringOnPicture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F2EDEBD73F253AF91858B8464FB129 /* Pods-ColoringOnPicture-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12C3E7853B503537D7B8FDBC6978BA20 /* libPods-ColoringOnPicture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColoringOnPicture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F2EDEBD73F253AF91858B8464FB129 /* Pods-ColoringOnPicture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColoringOnPicture-dummy.m"; sourceTree = "<group>"; };
+		6FA37304B4F80BC0C39DF647D54EFC37 /* Pods-ColoringOnPicture-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColoringOnPicture-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD85DE59C3B000AEC5770ADE862954CE /* Pods-ColoringOnPicture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColoringOnPicture.release.xcconfig"; sourceTree = "<group>"; };
+		C1903BD3CAAA5A0B893F4D461630F61A /* Pods-ColoringOnPicture-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColoringOnPicture-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C99D65E818282909945A7B67F1B204DD /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0AE2008B1333790838B0A4F646A73CA /* Pods-ColoringOnPicture-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColoringOnPicture-frameworks.sh"; sourceTree = "<group>"; };
+		EC831533F00A5E916214279C0416ACC7 /* Pods-ColoringOnPicture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColoringOnPicture.debug.xcconfig"; sourceTree = "<group>"; };
+		F5211F419A5F528B5C1E940387030079 /* Pods-ColoringOnPicture-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColoringOnPicture-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27C1B2504C8544639157300841732A77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED9985538706240869E423CE3483F02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4A77B0B9E2DA7C59F227CE1A17E78192 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C99D65E818282909945A7B67F1B204DD /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D76A84FA44FA422B31D3185B4166BFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6C1780F88BCD4979CB9FA9001B21D9A /* OpenCV */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6D76A84FA44FA422B31D3185B4166BFB /* Pods */,
+				98563F39DE6B5074365C2FEEDD716E70 /* Products */,
+				94794640FACE811407069D1CB1493BA1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94794640FACE811407069D1CB1493BA1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A414E866796E44BA67056F520FC33F23 /* Pods-ColoringOnPicture */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		98563F39DE6B5074365C2FEEDD716E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12C3E7853B503537D7B8FDBC6978BA20 /* libPods-ColoringOnPicture.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A414E866796E44BA67056F520FC33F23 /* Pods-ColoringOnPicture */ = {
+			isa = PBXGroup;
+			children = (
+				C1903BD3CAAA5A0B893F4D461630F61A /* Pods-ColoringOnPicture-acknowledgements.markdown */,
+				F5211F419A5F528B5C1E940387030079 /* Pods-ColoringOnPicture-acknowledgements.plist */,
+				37F2EDEBD73F253AF91858B8464FB129 /* Pods-ColoringOnPicture-dummy.m */,
+				D0AE2008B1333790838B0A4F646A73CA /* Pods-ColoringOnPicture-frameworks.sh */,
+				6FA37304B4F80BC0C39DF647D54EFC37 /* Pods-ColoringOnPicture-resources.sh */,
+				EC831533F00A5E916214279C0416ACC7 /* Pods-ColoringOnPicture.debug.xcconfig */,
+				BD85DE59C3B000AEC5770ADE862954CE /* Pods-ColoringOnPicture.release.xcconfig */,
+			);
+			name = "Pods-ColoringOnPicture";
+			path = "Target Support Files/Pods-ColoringOnPicture";
+			sourceTree = "<group>";
+		};
+		B6C1780F88BCD4979CB9FA9001B21D9A /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				4A77B0B9E2DA7C59F227CE1A17E78192 /* Frameworks */,
+			);
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E63059D63904FB93E2E3E5C9C7FF27C5 /* Pods-ColoringOnPicture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0FE1BE787548F219AD01EDC5AD1A73B /* Build configuration list for PBXNativeTarget "Pods-ColoringOnPicture" */;
+			buildPhases = (
+				BD92246B62BB7B08A45E889B54A2B37F /* Sources */,
+				27C1B2504C8544639157300841732A77 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ColoringOnPicture";
+			productName = "Pods-ColoringOnPicture";
+			productReference = 12C3E7853B503537D7B8FDBC6978BA20 /* libPods-ColoringOnPicture.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 98563F39DE6B5074365C2FEEDD716E70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E63059D63904FB93E2E3E5C9C7FF27C5 /* Pods-ColoringOnPicture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD92246B62BB7B08A45E889B54A2B37F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C38FD7777F945CE33DE27F8A65606C /* Pods-ColoringOnPicture-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3471783CE77EFA9F116A0AC6D5C5A0E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD85DE59C3B000AEC5770ADE862954CE /* Pods-ColoringOnPicture.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF5E820C31BDD9DF6904B3AB1E8221B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC831533F00A5E916214279C0416ACC7 /* Pods-ColoringOnPicture.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0FE1BE787548F219AD01EDC5AD1A73B /* Build configuration list for PBXNativeTarget "Pods-ColoringOnPicture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5E820C31BDD9DF6904B3AB1E8221B8 /* Debug */,
+				3471783CE77EFA9F116A0AC6D5C5A0E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
